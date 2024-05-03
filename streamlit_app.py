@@ -50,7 +50,7 @@ def get_matrikkel_data_syk(row):
         'service': 'WFS',
         'version': '2.0.0',
         'request': 'GetFeature',
-        'typename': 'app:Bygning',
+        'typename': 'app:ByggType',
         'srsname': 'EPSG:32633',
         'outputformat': 'application/gml+xml; version=3.2',
         'bbox': bbox_str,
