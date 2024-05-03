@@ -54,7 +54,7 @@ def get_matrikkel_data_syk(row):
         'srsname': 'EPSG:32633',
         'outputformat': 'application/gml+xml; version=3.2',
         'bbox': bbox_str,
-        'bygningstype': '111'
+        'filter': '"bygningstype" = \'111\''
         #'count': '100', reduce output count
     }
 
