@@ -51,7 +51,7 @@ def get_matrikkel_data_syk(row):
         'version': '2.0.0',
         'request': 'GetFeature',
         'typename': 'app:Bygning',
-        'filter': 'bygningstype = \'111\'' ,
+        'filter': '"bygningstype" = \'111\'',
         'srsname': 'EPSG:32633',
         'outputformat': 'application/gml+xml; version=3.2',
         'bbox': bbox_str,
